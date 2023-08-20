@@ -31,7 +31,7 @@ const double kDefaultLinearGaugeWidth = 300.0;
 /// Linear gauge render widget class.
 class LinearGaugeRenderWidget extends MultiChildRenderObjectWidget {
   /// Creates instance for [LinearGaugeRenderWidget] class.
-  const LinearGaugeRenderWidget(
+  LinearGaugeRenderWidget(
       {Key? key,
       required this.pointerAnimations,
       required List<Widget> children})
